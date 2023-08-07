@@ -22,7 +22,7 @@ function displaContent(data1) {
     <div class="card border-0 bg-light">
             <img src="${data1.image}" class="card-img-top">
             <div class="card-body">
-              <h4 class="card-title">${data1.name}</h4>
+              <h4 class="card-title text-decoration-underline">${data1.name}</h4>
               <p class="card-text">${data1.desc}</p>
             </div>
           </div>
