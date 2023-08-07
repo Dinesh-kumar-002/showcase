@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+/* font-family: 'Poppins', sans-serif; */
+}
+.row{
+    margin-top: 20px;
+}
+.navbar-brand{
+  text-align: center;
+  line-height: 40px;
+}
+.navigation{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+    background-color: rgb(35, 35, 35);
+}
+
+.card-title{
+    text-shadow: 1px 1px 2px grey;
+    font-weight: bolder !important;
+    font-weight: 900 !important;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .form-control{
+    border: none;
+  }
+  
+  .search-input {
+    width: 50px;
+    height: 50px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    transition: width 0.3s ease;
+
+  }
+  
+  .search-icon {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    right: 10px;
+    height: 45px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .card{
+    margin-top: 20px;
+  }
+  .nores{
+    backdrop-filter: blur('50px');
+    font-weight: 800;
+    font-size: 40px;
+    display: flex;
+    width: 22rem;
+    height: 22rem;
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+  }
+  .links{
+    background-color: rgba(223, 223, 223, 0.61);
+    padding: 10px 0;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+  .insta{
+    /* border: 1px solid white; */
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px !important;
+  }
+  
+.fa-instagram{
+  font-size: 25px;
+}
+.btn{
+  color: white;
+  font-weight: bolder;
+  background: linear-gradient(to right, rgb(255, 111, 111),rgb(67, 67, 255));
+}
+.footer{
+  position: fixed;
+  bottom: 40%;
+  float: right;
+  right: 0;
+  z-index: 10;
+  height: max-content;
+}
+.email{
+  background: radial-gradient(#4285F4,#0F9D58);
+}
+.github{
+  background-color: rgba(0, 0, 0, 0.881);
+}
+.linkedin{
+  background-color: rgba(0, 28, 167, 0.881);
+}
+.instagram{
+  background:linear-gradient(160deg,rgb(128, 0, 128),rgb(219, 0, 0),rgb(255, 0, 115),rgb(255, 166, 0),rgb(255, 247, 0));
+}
