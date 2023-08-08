@@ -1,8 +1,15 @@
 [
     {
+        "image":"images/memory game.jpg",
+        "name":"Memory Game",
+        "keywords":"memory game memorygame play project free freeversion website application github git",
+        "desc":"Hi guys, This is memory game which is simple to play and userfriendly.Thanks for interest in my project.Follow me if you like my work.",
+        "link":"https://dinesh-kumar-002.github.io/memory-game/"
+    },
+    {
         "image":"images/weather.jpg",
         "name":"Weather App",
-        "keywords":"weather weatherapi api project free freeversion weather application github",
+        "keywords":"weather weatherapi api project free freeversion weather application github website",
         "desc":"Hey guys, This is my first API project which is weather API.I made this with free version with limited API calls. Thanks for interest in my project.Follow me if you like my work.",
         "link":"https://dinesh-kumar-002.github.io/weather/"
     },
