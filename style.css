@@ -120,3 +120,29 @@ body {
 .instagram{
   background:linear-gradient(160deg,rgb(128, 0, 128),rgb(219, 0, 0),rgb(255, 0, 115),rgb(255, 166, 0),rgb(255, 247, 0));
 }
+
+/* svg */
+svg {
+	font-family: 'Russo One', sans-serif;
+	width: max-content; height: 100%;
+}
+svg text {
+	text-transform: uppercase;
+	animation: stroke 5s infinite alternate;
+	stroke-width: 2;
+	stroke: #7395cb;
+	font-size: 200px;
+  font-weight: bolder;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(72,138,20,0); stroke: #d6e6ff;
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(72,138,20,0); stroke: rgb(251, 252, 255); }
+	80%  {fill: rgba(72,138,20,0); stroke: rgba(54,95,160,1); stroke-width: 3; }
+	100% {
+		fill: rgba(72,138,204,1); stroke: rgba(54,95,160,0); 
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
