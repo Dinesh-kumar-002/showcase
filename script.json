@@ -1,5 +1,12 @@
 [
     {
+        "image":"images/find color.jpg",
+        "name":"Find color",
+        "keywords":"find color findcolor game memory play project free freeversion website application github git",
+        "desc":"Hey guys,new game find color with js is out/It's simple to play and enjoyable it increased our knowledge of color code.And it is very helpful for programmers and designers.Thanks for interest in my project.Follow me if you like my work.",
+        "link":"https://dinesh-kumar-002.github.io/find-color/"
+    },
+    {
         "image":"images/tiktaktoe.jpg",
         "name":"Tik Tak Toe",
         "keywords":"tiktaktoe game tiktaktkoegame tik tak toe play project free freeversion website application github git",
