@@ -69,15 +69,18 @@ var insta = document.querySelector(".insta");
 //search bacr expanding and collapsing function
 
 function expandSearchBar() {
+    var navbar_brand = document.querySelector(".navbar-brand");
     var searchBar = document.getElementById("searchInput");
-    if (searchBar.style.width === "50px") {
-        searchBar.style.width = "190px";
+    if (searchBar.style.width === "50px" || searchBar.style.width === "") {
+        navbar_brand.style.visibility="hidden";
+        searchBar.style.width = "300px";
         searchBar.placeholder = "Search";
         icon.classList.remove("fa-magnifying-glass");
         icon.classList.add("fa-xmark");
         searchBar.focus();
     } else {
         icon.classList.add("fa-magnifying-glass");
+        navbar_brand.style.visibility="visible";
         icon.classList.remove("fa-xmark");
         searchBar.style.width = "50px";
         searchBar.placeholder = "";
