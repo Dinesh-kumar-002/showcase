@@ -1,4 +1,4 @@
-fetch("https://dinesh-kumar-002.github.io/showcase-json/showcase_json.json")
+fetch("script.json")
     .then((response) => response.json())
     .then((data) => {
         temp = data;
