@@ -126,7 +126,7 @@ svg {
 }
 svg text {
 	text-transform: uppercase;
-	animation: stroke 5s infinite alternate;
+	animation: stroke 3s alternate;
 	stroke-width: 2;
 	stroke: #7395cb;
 	font-size: 200px;
