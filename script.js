@@ -17,7 +17,7 @@ function display() {
 
 function displaContent(data1) {
     return `
-    <div class="each col-12 col-lg-6" data-aos="fade-up" data-aos-duration="2000">
+    <div class="each col-12 col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="2000">
     <a href="${data1.link}" class="text-decoration-none text-dark">        
     <div class="card border-0 bg-light">
             <img src="${data1.image}" class="card-img-top">
