@@ -1,11 +1,19 @@
-[         { 
-         "image":"images/bootstrap.jpg", 
-         "name":"Responsive Landing page ", 
-         "keywords":"website bootstrap responsive project free freeversion application github git", 
-         "desc":"Hey hi guys , This is my responsive website that I made earlier that forget to post .Just Try it.and If you like it just follow me on instagram ,linkedIn and github", 
-         "link":"https://dinesh-kumar-002.github.io/responsive-bootstrap-website/" 
-     },
-         { 
+[        
+    { 
+        "image":"images/digital-mantraaz.png", 
+        "name":"Responsive Landing page ", 
+        "keywords":"website Digital marketing  and Animated website for ", 
+        "desc":"Hey hi guys , This is digital marketing brand's site where I worked to develope the frontend part. If you like it just follow me on instagram ,linkedIn and github", 
+        "link":"https://digitalmantraaz.com" 
+    },
+    { 
+        "image":"images/bootstrap.jpg", 
+        "name":"Responsive Landing page ", 
+        "keywords":"website bootstrap responsive project free freeversion application github git", 
+        "desc":"Hey hi guys , This is my responsive website that I made earlier that forget to post .Just Try it.and If you like it just follow me on instagram ,linkedIn and github", 
+        "link":"https://dinesh-kumar-002.github.io/responsive-bootstrap-website/" 
+    },
+    { 
          "image":"images/music_player.jpg", 
          "name":"Simple Music Player ", 
          "keywords":"website api deezer player react reactjs music project free freeversion application github git", 
